@@ -11,7 +11,7 @@ public class TriangleType {
         int b= userInput.nextInt();
         System.out.println("Enter the third length of the side: ");
         int c= userInput.nextInt();
-        if(a+b> c || b+c> a || c+a> b)
+        if(a+b> c && b+c> a && c+a> b)
         {
             if(a==b && b==c)
         {
